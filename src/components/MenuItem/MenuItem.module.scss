@@ -1,0 +1,17 @@
+.wrapper {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+
+  &Active {
+    color: #189CE8;
+  }
+
+  &:hover {
+    color: #189CE8;
+
+  }
+}

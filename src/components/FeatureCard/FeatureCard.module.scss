@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  &RightAligned {
+    align-items: flex-end;
+
+    .icon, .title, .text {
+      text-align: right;
+    }
+  }
+
+  + .wrapper {
+    margin-top: 93px;
+  }
+}
+
+.icon {
+  background: rgba(255, 255, 255, 0.12);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &Inner {
+    width: 8px;
+    height: 8px;
+    background: #159BE8;
+  }
+}
+
+.title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  text-align: left;
+
+  color: #FFFFFF;
+  margin-top: 12px;
+}
+
+.text {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 24px;
+  /* or 218% */
+
+  text-align: left;
+
+  color: #FFFFFF;
+}

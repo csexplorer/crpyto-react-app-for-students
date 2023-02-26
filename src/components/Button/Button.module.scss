@@ -1,0 +1,29 @@
+.wrapper {
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding: 16px 32px;
+
+  border-radius: 100px;
+
+  &--variant {
+    &-stroke {
+      border: 2px solid #FFFFFF;
+      background: transparent;
+    }
+
+    &-primary {
+      border: 2px solid #159BE8;
+      background: #159BE8;
+    }
+  }
+}
+
+.title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+}

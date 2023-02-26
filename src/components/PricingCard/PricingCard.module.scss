@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 72px 16px 50px;
+  width: 400px;
+  background: #0C0D2E;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.price {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+  margin-top: 12px;
+}
+
+.text {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 24px;
+  /* or 218% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.button {
+  margin-top: 32px;
+}
